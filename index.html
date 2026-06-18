@@ -1,23 +1,137 @@
 
+<!DOCTYPE html><html><head><title>EnescuVertical</title></head><body><h1>EnescuVertical</h1> <p>Professional rope access technician.</p> <p>Photos, videos and e
+George Enescu
+	
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>EnescuVertical</title>
+
+<style>
+body{
+    margin:0;
+    font-family:Arial, sans-serif;
+    background:#111;
+    color:white;
+}
+
+header{
+    text-align:center;
+    padding:100px 20px;
+    background:linear-gradient(rgba(0,0,0,.6), rgba(0,0,0,.8)),
+    url("https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=1600&q=80");
+    background-size:cover;
+    background-position:center;
+}
+
+h1{
+    font-size:60px;
+    margin:0;
+}
+
+.tagline{
+    font-size:22px;
+    color:#ddd;
+}
+
+section{
+    max-width:1000px;
+    margin:auto;
+    padding:50px 20px;
+}
+
+.card{
+    background:#1c1c1c;
+    padding:25px;
+    border-radius:15px;
+    margin-bottom:20px;
+}
+
+.gallery{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:15px;
+}
+
+.gallery img{
+    width:100%;
+    border-radius:12px;
+}
+
+.contact{
+    text-align:center;
+}
+
+.button{
+    display:inline-block;
+    background:#ff6600;
+    color:white;
+    padding:15px 25px;
+    text-decoration:none;
+    border-radius:10px;
+    margin-top:15px;
+}
+
+footer{
+    text-align:center;
+    padding:30px;
+    color:#999;
+}
+</style>
 </head>
+
 <body>
-<h1>EnescuVertical</h1>
 
-<p>Professional rope access technician.</p>
+<header>
+    <h1>EnescuVertical</h1>
+    <p class="tagline">
+        Professional Rope Access • Photography • Videography
+    </p>
+</header>
 
-<p>Photos, videos and experiences from extreme heights.</p>
+<section>
+    <div class="card">
+        <h2>About Me</h2>
+        <p>
+            I am a professional rope access technician capturing unique
+            photos and videos from towers, poles and high-altitude structures.
+            My work combines technical climbing skills with photography and videography.
+        </p>
+    </div>
 
-<h2>About Me</h2>
+    <div class="card">
+        <h2>Services</h2>
+        <ul>
+            <li>Industrial Rope Access</li>
+            <li>High Altitude Photography</li>
+            <li>Video Content Creation</li>
+            <li>Inspection and Documentation</li>
+        </ul>
+    </div>
 
-<p>I work as an industrial climber and capture unique images from towers, poles and high-altitude structures.</p>
+    <div class="card">
+        <h2>Gallery</h2>
+        <div class="gallery">
+            <img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=800&q=80">
+            <img src="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=800&q=80">
+            <img src="https://images.unsplash.com/photo-1517821365201-7734f463f74f?auto=format&fit=crop&w=800&q=80">
+        </div>
+    </div>
 
-<h2>Contact</h2>
+    <div class="card contact">
+        <h2>Contact</h2>
+        <p>Available for projects and collaborations.</p>
+        <a class="button" href="mailto:your@email.com">
+            Contact Me
+        </a>
+    </div>
+</section>
 
-<p>Email: contact@enescuvertical.com</p>
+<footer>
+    © 2025 EnescuVertical
+</footer>
 
 </body>
 </html>
