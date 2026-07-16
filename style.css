@@ -678,3 +678,35 @@ section{
 }
 
 }
+/* HERO PREMIUM */
+
+.hero{
+    min-height:100vh;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    text-align:center;
+    padding:120px 20px 80px;
+}
+
+.hero h1{
+    font-size:clamp(42px,8vw,80px);
+    line-height:1.1;
+    margin-bottom:25px;
+    font-weight:800;
+}
+
+.hero p{
+    font-size:22px;
+    max-width:850px;
+    margin:0 auto 40px;
+    color:#cfd8e3;
+    line-height:1.8;
+}
+
+.hero-buttons{
+    display:flex;
+    justify-content:center;
+    gap:20px;
+    flex-wrap:wrap;
+}
