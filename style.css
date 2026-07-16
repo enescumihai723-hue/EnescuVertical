@@ -498,3 +498,98 @@ nav ul li a:hover{
 .gallery-item:hover img{
     transform:scale(1.08);
 }
+/* ===========================
+   CONTACT SECTION
+=========================== */
+
+.contact{
+    background:#0b1020;
+}
+
+.contact-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:30px;
+    margin-bottom:50px;
+}
+
+.contact-card{
+    background:#111827;
+    padding:35px;
+    border-radius:20px;
+    text-align:center;
+    border:1px solid rgba(255,255,255,.08);
+    transition:.35s;
+}
+
+.contact-card:hover{
+    transform:translateY(-10px);
+    border-color:#00aaff;
+}
+
+.contact-card h3{
+    color:#00aaff;
+    margin-bottom:15px;
+}
+
+.contact-form{
+    display:flex;
+    flex-direction:column;
+    gap:20px;
+}
+
+.contact-form input,
+.contact-form textarea{
+    background:#111827;
+    color:#fff;
+    border:1px solid rgba(255,255,255,.1);
+    border-radius:15px;
+    padding:18px;
+    font-size:16px;
+}
+
+.contact-form textarea{
+    min-height:180px;
+    resize:vertical;
+}
+
+.contact-form button{
+    background:#00aaff;
+    color:#fff;
+    border:none;
+    padding:18px;
+    border-radius:50px;
+    font-size:18px;
+    font-weight:700;
+    cursor:pointer;
+    transition:.3s;
+}
+
+.contact-form button:hover{
+    background:#0088cc;
+}
+
+/* ===========================
+   FOOTER
+=========================== */
+
+footer{
+    background:#05070d;
+    text-align:center;
+    padding:50px 20px;
+    border-top:1px solid rgba(255,255,255,.08);
+}
+
+footer h2{
+    color:#ffffff;
+    margin-bottom:10px;
+}
+
+footer h2 span{
+    color:#00aaff;
+}
+
+footer p{
+    color:#bfc5cf;
+    margin:8px 0;
+}
